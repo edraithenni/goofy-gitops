@@ -17,3 +17,10 @@ spec:
         image: edraithenni/goofy-app:6bfeda08b3fff23296ebbc0f96b044eb2793c4d0
         ports:
         - containerPort: 3000
+        volumeMounts:
+        - name: images-storage
+          mountPath: /app/public/images 
+      volumes:
+      - name: images-storage
+        persistentVolumeClaim:
+          claimName: goofy-app-images-pvc
