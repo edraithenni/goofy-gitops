@@ -10,7 +10,7 @@ spec:
   tls:
     - hosts:
         - goofy-app.local           
-      secretName: my-node-tls         
+      secretName: goofy-node-tls         
   rules:
     - host: goofy-app.local
       http:
