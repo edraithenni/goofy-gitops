@@ -19,6 +19,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: my-node-service  
+                name: goofy-node-service  
                 port:
                   number: 80   
