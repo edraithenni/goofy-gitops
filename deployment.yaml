@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: node-container
-        image: edraithenni/goofy-app:6bfeda08b3fff23296ebbc0f96b044eb2793c4d0
+        image: edraithenni/goofy-app:30e5c4f98084bad2d55dca13a85fdddbfee625b6
         ports:
         - containerPort: 3000
         volumeMounts:
